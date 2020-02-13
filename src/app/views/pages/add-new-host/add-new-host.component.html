@@ -1,0 +1,21 @@
+<div class="col-md-10 offset-md-1">
+  <mat-dialog-content>
+    <h2 mat-dialog-title style="text-align: center;">Add New Host</h2>
+    <label>Industry</label>
+    <input type="text" class="form-control">
+    <label>Description</label>
+    <input type="text" class="form-control">
+    <label>Price</label>
+    <input type="text" class="form-control">
+    <label>Closing Date</label>
+    <input type="text" class="form-control">
+    <br>
+    <input type="file">
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close class="badge badge-pill followBtn col-md-2">Discard</button>
+    <button mat-button [mat-dialog-close]="true" class="badge badge-pill btnBackground col-md-2" style="margin-left: 2%;">Upload</button>
+  </mat-dialog-actions>
+</div>
+ 
+

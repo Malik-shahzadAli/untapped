@@ -1,0 +1,48 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: white;
+}
+.hidden{
+  display: none;
+}
+
+@media(min-width:768px){
+  .sidenav {
+    display: none;
+  }
+}
+.nav-header{
+  background-image: url("assets/media/icons/Icons/Landing/0.png");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.spacer{
+  flex:1 1 auto;
+}
+mat-toolbar a{
+  display: inline-block;
+  margin: 0px 10px;
+  color: black;
+  text-decoration: none;
+}
+@media(max-width:769px){
+  .header-items {
+    display: none;
+  }
+}

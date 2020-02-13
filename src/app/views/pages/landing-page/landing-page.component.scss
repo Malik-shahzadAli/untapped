@@ -1,0 +1,27 @@
+.landingpageimage{
+    // color:red;
+     background-image: url("assets/media/icons/Icons/Landing/1.png");
+     width: 100%;
+     height: auto;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+  
+  }
+  .left{
+      float: left;
+  }
+  .color{
+      background-color: white;
+  }
+  .btnBackground{
+    background-color: rgb(249, 113, 103); 
+    color: white;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+    border:0px;
+
+}
+.hrwidth{
+    border: 2px solid rgb(249, 113, 103);
+    border-radius: 2px;
+}

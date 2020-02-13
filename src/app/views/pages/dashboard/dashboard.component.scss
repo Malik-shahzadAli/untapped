@@ -1,0 +1,52 @@
+:host {
+	::ng-deep {
+		ngb-tabset > .nav-tabs {
+			display: none;
+		}
+	}
+}
+// .mat-ink-bar {
+//     background-color: green;
+// }
+
+//for changing the active tab color
+.label.mat-tab-label.mat-tab-label-active {
+    background-color: transparent;
+    color: rgb(249, 113, 103);
+}
+.btnBackground{
+    background-color: rgb(249, 113, 103); 
+    color: white;
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+    border:0px;
+
+}
+.followBtn{
+	border-color: rgb(249, 113, 103);
+	padding-left: 6% !important;
+	padding-right: 6% !important;
+	color:  rgb(249, 113, 103);
+	background-color: #F2F3F8;
+	// border:0px;
+}
+// .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+// 	background-color: rgb(249, 113, 103) !important;
+// }
+// .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+//     background-color: green;
+// }
+// md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
+//     color: red !important;
+//     background-color:red !important;
+// }
+// ::ng-deep .mat-ink-bar {
+// 	background-color: var(--primary-color,red) !important;
+// 	}
+// .mat-tab-label {
+//     min-width: 25px !important;
+//     padding: 5px;
+//     background-color: transparent;
+//     color: red;
+//     font-weight: 700;
+// }
