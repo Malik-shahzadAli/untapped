@@ -50,3 +50,21 @@
 //     color: red;
 //     font-weight: 700;
 // }
+.background{
+	background: #f4f3f3;
+}
+.mat-tab-label-active {
+	color: rgb(249, 113, 103);
+}
+.mat-ink-bar{
+	background: rgb(249, 113, 103) !important;
+	color:  rgb(249, 113, 103) !important;
+}
+@media screen and (max-width: 480px) {
+	.imgClass{
+	  margin-top: 5vh;
+	}
+	.banner{
+		height: 40vh;
+	}
+  }

@@ -1,7 +1,18 @@
 .conversation{
-    border: 1px solid;
+    // border: 1px solid;
     background-color: white;
 }
 .arrow{
     color: rgb(249, 113, 103);
 }
+@media screen and (max-width: 480px) {
+    // .height{
+    //   height: 40vh;
+    //   margin-top: 5vh;
+    // }
+    // .convercation{
+    //   margin-left: 2vh;
+    //   margin-top: 2vh;
+    //   width: 90vw;
+    // }
+  }

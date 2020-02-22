@@ -10,6 +10,7 @@ export class LayoutConfig {
 				'background-image': './assets/media/misc/bg-1.jpg',
 			},
 			'logo': './assets/media/logos/logo-4.png',
+			
 		},
 		// == Page Splash Screen loading
 		'loader': {

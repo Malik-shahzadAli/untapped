@@ -17,7 +17,7 @@ export class DashboardCompetitionsComponent implements OnInit {
     // this.dialog.open(PopupWindowComponent,{data:{description:'Fetching',content:'We Just start fetching updated data please wait...'}})
     this.dialog.open(AddNewHostComponent,{
       height: '65%',
-      width: '40%',
+      width: '70%',
     })
   }
 }

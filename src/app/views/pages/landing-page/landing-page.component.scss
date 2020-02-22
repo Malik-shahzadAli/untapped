@@ -7,6 +7,22 @@
      background-size: 100% 100%;
   
   }
+  .arrow{
+    background-image: url("assets/media/icons/Icons/Landing/14.png");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:white;
+  }
+  .arrowb{
+    background-image: url("assets/media/icons/Icons/Landing/14b.png");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:white;
+  }
   .left{
       float: left;
   }
@@ -24,4 +40,13 @@
 .hrwidth{
     border: 2px solid rgb(249, 113, 103);
     border-radius: 2px;
+}
+p {
+  font-size: 14pt;
+}
+.subheading{
+  font-size: 20pt;
+}
+.text{
+  font-size: 16pt;
 }

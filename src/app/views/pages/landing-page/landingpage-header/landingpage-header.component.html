@@ -9,7 +9,7 @@
       <a mat-list-item href="#">How it Works ?</a>
       <a mat-list-item href="#">Our Vision</a>
       <a mat-list-item href="#">Contact Us</a>
-      <a mat-list-item href="#">Sign Up</a>
+      <a mat-list-item routerLink="/loggedIn/home">Sign Up</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content >
@@ -22,17 +22,16 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Untapped</span>
-      <div class="col-md-3 form-inline mt-1">
-        <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
-          aria-label="Search">
-      </div>
+      <span>
+        <img src="assets/media/icons/Icons/Landing/logo.png" width="55vh" style="margin-top: 1vh;">
+        <span>Untapped</span>
+      </span>
       <div class="spacer"></div>
       <div class="header-items">
         <a mat-list-item href="#">How it Works ?</a>
         <a mat-list-item href="#">Our Vision</a>
         <a mat-list-item href="#">Contact Us</a>
-        <a mat-list-item routerLink="/loggedIn">Sign Up</a>
+        <a mat-list-item routerLink="/loggedIn/home">Sign Up</a>
       </div>
     </mat-toolbar>
     <!-- Add Content Here -->

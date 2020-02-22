@@ -27,3 +27,11 @@
 .avatar{
     border-radius: 50%;
 }
+.marginMedia{
+    float: left;
+}
+@media screen and (max-width: 480px) {
+  .marginMedia{
+    float: none;
+  }
+  }

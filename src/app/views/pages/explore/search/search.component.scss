@@ -11,3 +11,14 @@
 .text-size{
     font-size: large;
 }
+.searchBtnDiv{
+    float: left;
+    padding-left: 0px;
+}
+@media screen and (max-width: 480px) {
+    .searchBtnDiv{
+        float: left;
+        padding-left: 2vh;
+        margin-top: 1vh;
+    }
+}

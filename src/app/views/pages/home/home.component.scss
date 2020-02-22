@@ -2,3 +2,15 @@
     border-left: 1px solid black;
     //height: 100%;
   }
+
+@media screen and (max-width: 480px) {
+  .imgHeight{
+    height: 40vh;
+    margin-top: 5vh;
+  }
+  .con{
+    margin-left: 2vh;
+    margin-top: 2vh;
+    width: 93vw;
+  }
+}

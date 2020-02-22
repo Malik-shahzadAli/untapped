@@ -15,7 +15,7 @@ export class CompetitionsComponent implements OnInit {
   hostCompetitions(){
     this.dialog.open(AddNewHostComponent,{
       height: '65%',
-      width: '40%',
+      width: '70%',
     })
   }
 }
